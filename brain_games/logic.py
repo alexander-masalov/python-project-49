@@ -21,4 +21,4 @@ def play(game):
             break
         COUNT -= 1
         if COUNT == 0:
-            print(f'Congratulation, {name}!')
+            print(f'Congratulations, {name}!')
