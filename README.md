@@ -3,7 +3,7 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/bcf3a860a72da6d8a2b3/maintainability)](https://codeclimate.com/github/alexander-masalov/python-project-49/maintainability)
 
 ## Even
-https://asciinema.org/a/koDUVVbyyeCQ28zAe8OmRMmEW
+[![asciicast](https://asciinema.org/a/koDUVVbyyeCQ28zAe8OmRMmEW.svg)](https://asciinema.org/a/koDUVVbyyeCQ28zAe8OmRMmEW)
 ### Calc
 https://asciinema.org/a/w0OAH6DJRubNzo9kKe5z3mEhW
 ### GCD
