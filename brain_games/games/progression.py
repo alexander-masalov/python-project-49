@@ -18,4 +18,3 @@ def question_generate():
     progression[random_index] = '..'
     question = ' '.join(progression)
     return question, correct_answer
-    
