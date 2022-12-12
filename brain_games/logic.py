@@ -11,7 +11,7 @@ def play(game):
     while COUNT > 0:
         question, correct_answer = game.question_generate()
         print('Question: ', end='')
-        print(f'{question} ({correct_answer})')
+        print(f'{question}')
         answer = prompt.string('Your answer: ')
         if answer == str(correct_answer):
             print('Correct!')
