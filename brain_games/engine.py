@@ -1,14 +1,17 @@
 import prompt
 
+COUNT_TRY = 3
+MIN_LIMIT = 1
+MAX_LIMIT = 100
+
 
 def play(game):
-    COUNT = 3
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(game.rules)
-
-    while COUNT > 0:
+    print(game.RULES)
+    
+    for i in range(0, COUNT_TRY):
         question, correct_answer = game.question_generate()
         print('Question: ', end='')
         print(f'{question}')
@@ -19,7 +22,6 @@ def play(game):
             print(f"'{answer}' is wrong answer ;(. ", end='')
             print(f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
-            break
-        COUNT -= 1
-        if COUNT == 0:
-            print(f'Congratulations, {name}!')
+            exit()
+
+    print(f'Congratulations, {name}!')
