@@ -10,7 +10,7 @@ def play(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.RULES)
-    
+
     for i in range(0, COUNT_TRY):
         question, correct_answer = game.question_generate()
         print('Question: ', end='')
