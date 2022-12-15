@@ -1,8 +1,18 @@
-### Hexlet tests and linter status:
+## Hexlet tests and linter status:
 [![Actions Status](https://github.com/alexander-masalov/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/alexander-masalov/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/bcf3a860a72da6d8a2b3/maintainability)](https://codeclimate.com/github/alexander-masalov/python-project-49/maintainability)
 
-## Even
+<h1 align="center">Hi there, I'm Goodsmack</h1>
+<h3 align="center">Hexlet's student of python programming</h3>🐍
+
+
+# Install
+git clone https://github.com/alexander-masalov/python-project-49.git
+cd python-project-49
+make package-install
+
+
+### Even
 [![asciicast](https://asciinema.org/a/koDUVVbyyeCQ28zAe8OmRMmEW.svg)](https://asciinema.org/a/koDUVVbyyeCQ28zAe8OmRMmEW)
 ### Calc
 https://asciinema.org/a/w0OAH6DJRubNzo9kKe5z3mEhW
