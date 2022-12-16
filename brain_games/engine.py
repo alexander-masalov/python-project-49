@@ -1,8 +1,7 @@
 import prompt
 
+
 COUNT_TRY = 3
-MIN_LIMIT = 1
-MAX_LIMIT = 100
 
 
 def play(game):

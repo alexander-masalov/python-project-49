@@ -12,10 +12,7 @@
 
 
 ```
-git clone https://github.com/alexander-masalov/python-project-49.git
-cd python-project-49
-make build
-make package-install
+python3 pip install --user git+https://github.com/alexander-masalov/python-project-49.git
 ```
 
 <h2>Запуск:</h2>
