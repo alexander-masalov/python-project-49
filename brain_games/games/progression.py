@@ -4,11 +4,11 @@ import random
 RULES = 'What number is missing in the progression?'
 MIN_START = 1
 MAX_START = 20
-STOP = 100
 MIN_STEP = 1
 MAX_STEP = 9
 MIN_LEN = 5
 MAX_LEN = 10
+STOP = 100
 
 
 def question_generate():
